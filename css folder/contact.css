@@ -1,0 +1,10 @@
+body{
+    /* to find pic use ../ */
+   padding: 10px;
+   background-color: lightgray;
+   background-image: url(../img\ folder/Ironman\ contact.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-color: black;
+}
