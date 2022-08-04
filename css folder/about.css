@@ -1,10 +1,168 @@
 body{
     /* to find pic use ../ */
    padding: 10px;
-   background-color: lightgray;
+   background-color: black;
    background-image: url(../img\ folder/Ironman\ about.jpeg);
-   background-size: cover;
+   background-size: contain;
    background-repeat: no-repeat;
    background-attachment: fixed;
-   background-color: black;
+
 }
+
+.border{
+    border: 6px solid white;
+    margin: 10x;
+    padding: 25;
+}
+.left{ float: left; width: 50%; }
+
+section, article{ height: 600px; }
+
+
+
+nav{
+
+    /* <!--add margin to space out nav> */
+
+position: sticky;
+top: 0;
+background-color: black;
+padding: 0px;
+font-size: 25px;
+}
+
+/* spacing */
+nav > a {
+    margin: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.head{
+    margin-left: 25px;
+}
+a:link{
+    text-decoration: none;
+
+}
+a:visited{
+    color:rgb(174,226,247);
+
+}
+a:hover{
+color: rgb(202,37,66);
+
+}
+a:active{
+color: rgb(239, 42, 36);
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .all-browsers {
+    margin: 0;
+    padding: 5px;
+}
+.comic{
+    float: left;
+    background-image: center;
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    clear: both;
+}
+
+.comic{
+  width: 17%;
+  padding: 15px;
+  margin: 15px;
+  float: right;
+  font-style: italic;
+  background-color: darkgray;
+  font-size: 30px;
+  text-align: center;
+  
+
+}
+
+h2{
+    font-size: 45px;
+    color: white;
+    font-family: 'Uchen', serif;
+    
+}
+.story{
+    padding: auto;
+
+}
+p{
+    font-size: 25px;
+    forced-color-adjust: white;
+    font-family: 'Bahianita', cursive;
+}
+
+.font{
+    color: white;
+
+}
+li{
+    font-size: 22px;
+}
+
+.suits{
+    float: center;
+    background-image: center;
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    clear: both;
+}
+h3{
+    color: white;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+footer{
+    color: white;
+}
+
+

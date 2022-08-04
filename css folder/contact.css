@@ -8,3 +8,58 @@ body{
    background-attachment: fixed;
    background-color: black;
 }
+
+.border{
+    border: 0.5px solid black;
+    margin: 5px;
+}
+.left{ float: left; width: 50%; }
+.right{ float: right; width: 50%; }
+footer{ clear: both; }
+
+/* set background color to white */
+/* made into a class to save line space in stylesheet */
+.white{ background-color: white; }
+
+/* set height of section, article, and aside elements */
+/* pixel calculation: section(250) + article(250) + border(section(0.5 + 0.5) + article(0.5 + 0.5))  + margin(5) = 507px */
+section, article{ height: 600px; }
+
+aside{ height: 3000px; }
+
+nav{
+
+    /* <!--add margin to space out nav> */
+
+position: sticky;
+top: 0;
+background-color: transparent;
+padding: 0px;
+font-size: 25px;
+}
+
+/* spacing */
+nav > a {
+    margin: 25px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.head{
+    margin-left: 25px;
+}
+
+a:link{
+    text-decoration: none;
+
+}
+a:visited{
+    color:rgb(255,182,18);
+
+}
+a:hover{
+color: rgb(174,226,247);
+
+}
+a:active{
+color: rgb(239, 42, 36);
+}
